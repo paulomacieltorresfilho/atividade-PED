@@ -12,6 +12,15 @@ end main;
 
 architecture Behavioral of main is
 
+    component soma1
+        Port ( a : in STD_LOGIC;
+               b : in STD_LOGIC;
+               cin : in STD_LOGIC;
+               s : out STD_LOGIC;
+               cout : out STD_LOGIC);
+    end component;
+
+
 begin
 
 

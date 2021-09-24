@@ -13,5 +13,7 @@ architecture Behavioral of soma1 is
 
 begin
 
+s <= a xor b xor cin;
+cout <= (a and b) or (a and cin) or (b and cin);
 
 end Behavioral;
