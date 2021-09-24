@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../AtividadeAvaliativa3.srcs/sources_1/new/main.vhd" \
+"../../../../AtividadeAvaliativa3.srcs/sources_1/new/not1.vhd" \
+"../../../../AtividadeAvaliativa3.srcs/sources_1/new/over1.vhd" \
+"../../../../AtividadeAvaliativa3.srcs/sources_1/new/soma1.vhd" \
+"../../../../AtividadeAvaliativa3.srcs/sim_1/new/main_tb.vhd" \
+
+# Do not sort compile order
+nosort
